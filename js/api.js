@@ -1,5 +1,5 @@
 _url='https://corona.lmao.ninja/countries/india'
-fetch('_url)
+fetch(_url)
   .then(response => {
     return response.json()
   })
