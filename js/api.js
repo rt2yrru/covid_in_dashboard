@@ -6,7 +6,7 @@ fetch(_url)
   })
   .then(data => {
     // Work with JSON data here
-    data = _data
+    _covid(data)
   })
   .catch(err => {
     // Do something for an error here
